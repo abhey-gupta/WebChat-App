@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    filter: brightness(67%);
+}
+h1{
+    margin-bottom: 25px;
+    font-size: 33px;
+    font-family: 'Grandstander', cursive;
+    text-align: center;
+}
+body {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(112, 226, 255), rgb(125, 152, 238));
+    height: 100%;
+}
+.container{
+    max-width: 900px;
+    border: 3px solid black;
+    background-image: url("https://i.pinimg.com/736x/c6/da/95/c6da95b75a1a7b37d857013228e15976.jpg") ;
+    margin: auto;
+    height: 480px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border-radius: 17px;
+}
+.message {
+    /* background-color: linear-gradient(rgb(255, 255, 255), rgb(112, 226, 255), rgb(125, 152, 238)); */
+    background-color: rgb(17, 222, 230);
+    margin: 10px 10px;
+    padding: 9px 7px;
+    border: 2px solid black;
+    border-radius: 11px;
+    font-size: 21px;
+    font-family: monospace;
+}
+.left{
+    float: left;
+    clear: both;
+    margin-left: 40px;
+}
+.middle {
+    display: flex;
+    margin: auto;
+    clear: both;
+    align-items: center;
+    width: fit-content;
+    height: 2vh;
+    font-size: 18px;
+    justify-content: center;
+    background-color: yellow;
+}
+.right {
+    float: right;
+    clear: both;
+    margin-right: 40px;
+}
+#send-container{
+    text-align: center;
+}
+#messageInp {
+    border: 2px solid black;
+    width: 62%;
+    border-radius: 22px;
+    height: 39px;
+    outline: none;
+    font-size: 21px;
+    font-family: monospace;
+    padding-left: 20px;
+}
+.btn {
+    background: rgb(76, 255, 76);
+    cursor: pointer;
+    height: 44px;
+    width: 46px;
+    border-radius: 30px;
+    font-weight: bold;
+    outline: none;
+    font-size: 23px;
+}
+.btn:hover{
+    background: rgb(1, 218, 1);
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    margin-top: 18px;
+}
